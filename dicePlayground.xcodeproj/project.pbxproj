@@ -13,6 +13,10 @@
 		075857BF2722817F00CB3F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075857BD2722817F00CB3F39 /* Main.storyboard */; };
 		075857C12722818300CB3F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075857C02722818300CB3F39 /* Assets.xcassets */; };
 		075857C42722818300CB3F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075857C22722818300CB3F39 /* LaunchScreen.storyboard */; };
+		075857D227228FA500CB3F39 /* dice_shake.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075857CE27228FA500CB3F39 /* dice_shake.mp3 */; };
+		075857D527229AF700CB3F39 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075857D327229AF700CB3F39 /* lose.mp3 */; };
+		075857D627229AF700CB3F39 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075857D427229AF700CB3F39 /* win.mp3 */; };
+		075857D827229C0C00CB3F39 /* cash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 075857D727229C0C00CB3F39 /* cash.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		075857C02722818300CB3F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075857C32722818300CB3F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		075857C52722818300CB3F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075857CE27228FA500CB3F39 /* dice_shake.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dice_shake.mp3; sourceTree = "<group>"; };
+		075857D327229AF700CB3F39 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = lose.mp3; path = ../../lose.mp3; sourceTree = "<group>"; };
+		075857D427229AF700CB3F39 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = win.mp3; path = ../../win.mp3; sourceTree = "<group>"; };
+		075857D727229C0C00CB3F39 /* cash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cash.mp3; path = ../../cash.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				075857C02722818300CB3F39 /* Assets.xcassets */,
 				075857C22722818300CB3F39 /* LaunchScreen.storyboard */,
 				075857C52722818300CB3F39 /* Info.plist */,
+				075857CE27228FA500CB3F39 /* dice_shake.mp3 */,
+				075857D327229AF700CB3F39 /* lose.mp3 */,
+				075857D427229AF700CB3F39 /* win.mp3 */,
+				075857D727229C0C00CB3F39 /* cash.mp3 */,
 			);
 			path = dicePlayground;
 			sourceTree = "<group>";
@@ -126,8 +138,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				075857C42722818300CB3F39 /* LaunchScreen.storyboard in Resources */,
+				075857D627229AF700CB3F39 /* win.mp3 in Resources */,
 				075857C12722818300CB3F39 /* Assets.xcassets in Resources */,
+				075857D827229C0C00CB3F39 /* cash.mp3 in Resources */,
+				075857D227228FA500CB3F39 /* dice_shake.mp3 in Resources */,
 				075857BF2722817F00CB3F39 /* Main.storyboard in Resources */,
+				075857D527229AF700CB3F39 /* lose.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
